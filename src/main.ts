@@ -7,8 +7,7 @@ async function bootstrap() {
   app.enableCors({
     origin: [
         'http://localhost:4200', //para permitir peticiones desde desarrollo.
-        'https://triunfocont.web.app', //URL del front de contabilidad
-        'https://avilaprofacturacion.web.app', //URL del front del proyecto de facturacion
+        'https://snackscontrol.web.app', //URL del front de contabilidad
     ],
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
     credentials: true
